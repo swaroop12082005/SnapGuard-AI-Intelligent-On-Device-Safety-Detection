@@ -27,13 +27,13 @@ SnapGuard AI provides an **on-device computer vision safety monitoring solution*
 ---
 
 ## 5. Key Features
-- 🎥 **Live Camera Processing**: Continuous frame analysis from built-in webcams or USB cameras.
-- 🦴 **Pose Landmark Tracking**: 33 keypoint human pose tracking powered by MediaPipe Pose.
-- 📐 **Spatial Orientation Analysis**: Real-time computation of torso inclination angle, hip vertical height, and body aspect ratio.
-- ⏱️ **Multi-Frame Temporal Fall Detection**: State machine algorithm that requires consecutive abnormal posture frames before triggering alerts, eliminating single-frame false positives.
-- 🚨 **Emergency Visual & Audio HUD**: High-contrast modern Heads-Up Display showing real-time status (`SAFE` vs `WARNING: FALL DETECTED`), confidence %, and detection timestamps (`Time: HH:MM:SS`).
-- 🔔 **Alert Cooldown System**: Intelligent audio alert throttling prevents continuous sound looping.
-- 💻 **Synthetic Simulation Mode**: Built-in test feed mode allowing complete app execution and visual verification on machines without camera hardware.
+-  **Live Camera Processing**: Continuous frame analysis from built-in webcams or USB cameras.
+-  **Pose Landmark Tracking**: 33 keypoint human pose tracking powered by MediaPipe Pose.
+-  **Spatial Orientation Analysis**: Real-time computation of torso inclination angle, hip vertical height, and body aspect ratio.
+- **Multi-Frame Temporal Fall Detection**: State machine algorithm that requires consecutive abnormal posture frames before triggering alerts, eliminating single-frame false positives.
+-  **Emergency Visual & Audio HUD**: High-contrast modern Heads-Up Display showing real-time status (`SAFE` vs `WARNING: FALL DETECTED`), confidence %, and detection timestamps (`Time: HH:MM:SS`).
+-  **Alert Cooldown System**: Intelligent audio alert throttling prevents continuous sound looping.
+-  **Synthetic Simulation Mode**: Built-in test feed mode allowing complete app execution and visual verification on machines without camera hardware.
 - ⚡ **Lightweight Architecture**: Designed for minimal CPU overhead and easy export to ONNX / Snapdragon NPU runtimes.
 
 ---
@@ -174,9 +174,9 @@ When running, SnapGuard AI renders a live HUD over the webcam stream:
 ---
 
 ## 13. Future Improvements
-- 🔄 **Multi-Person Tracking**: Expand state machine to track multiple subjects independently within the frame.
-- 📱 **SMS / Webhook Dispatch**: Integrate Twilio / WhatsApp API to send remote emergency notifications to caregivers.
-- 🧠 **Custom Deep Learning Classifier**: Train a custom LSTM / Spatial-Temporal Graph Convolutional Network (ST-GCN) model on public fall datasets.
+-  **Multi-Person Tracking**: Expand state machine to track multiple subjects independently within the frame.
+-  **SMS / Webhook Dispatch**: Integrate Twilio / WhatsApp API to send remote emergency notifications to caregivers.
+-  **Custom Deep Learning Classifier**: Train a custom LSTM / Spatial-Temporal Graph Convolutional Network (ST-GCN) model on public fall datasets.
 
 ---
 
